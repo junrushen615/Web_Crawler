@@ -1,0 +1,8 @@
+I need help writing a Python script that will crawl the CVPR 2025 website and extract papers related to 'deep learning'. The conference proceedings are available in HTML format, and each paper has a title, authors, abstract, and keywords. The crawler should be able to:
+
+1. Navigate across multiple pages of the CVPR 2025 website, handling pagination, to access all research papers of 2025 listed.
+2. Extract papers specifically related to 'deep learning'. This could be based on keywords in the title, abstract, or tags assigned to the paper.
+3. Extract details such as the paper title, authors, abstract, publication date, and URL.
+4. Save Data: Save the extracted data into a CSV file with the following columns: Title, Authors, Abstract, Publication Date, URL.
+5. Handle cases where some papers might be missing information, and skip those entries or print error messages.
+6. Ensure the crawler respects the CVPR website's robots.txt file, ensuring that no restricted pages are scraped.
